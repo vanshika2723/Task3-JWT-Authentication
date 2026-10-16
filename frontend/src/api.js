@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001/api/auth";
+const API_URL = "https://task3-jwt-authentication.onrender.com/api/auth";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_URL}${path}`, {
